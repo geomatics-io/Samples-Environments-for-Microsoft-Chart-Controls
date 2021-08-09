@@ -1,6 +1,6 @@
-# Microsoft Chart Controls for Microsoft .NET Framework
+# Microsoft Chart for Windows Forms Samples Environment
 
-This is a backup of Microsoft Chart Controls for Microsoft .NET Framework 3.5, based on the following sources:
+This is a backup of the _Microsoft Chart for Windows Forms Samples Environment_ (Microsoft Chart Controls for Microsoft .NET Framework 3.5), based on the following sources:
 
 - [Microsoft Chart Control for .Net 3.5 SP1](http://www.microsoft.com/downloads/details.aspx?FamilyId=130F7986-BF49-4FE5-9CA8-910AE6EA442C&displaylang=en)
 - [Microsoft Chart Control Add-on for Microsoft Visual Studio 2008](http://www.microsoft.com/downloads/details.aspx?familyid=1D69CE13-E1E5-4315-825C-F14D33A303E9&displaylang=en)
