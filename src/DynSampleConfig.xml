@@ -1,0 +1,3909 @@
+<SampleContentList>
+  <TOCNode ID="ChartOverview" Priority="1" Path="ChartOverview" Title="Overview">
+    <SampleConfig ParentNodeID="ChartOverview" Priority="100" Path="ChartOverview" ID="Sample151">
+      <Title>Overview</Title>
+      <Thumbnail />
+      <ShortBlurb>Overview of Samples Environment</ShortBlurb>
+      <SampleControl>None</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+    </SampleConfig>
+  </TOCNode>
+  <TOCNode ID="ChartTypes" Priority="100" Path="ChartTypes" Title="Chart Types">
+    <TOCNode ID="AdvancedFinancialCharts" ParentNodeID="ChartTypes" Priority="100" Path="ChartTypes" Title="Advanced Financial Charts">
+      <SampleConfig ParentNodeID="AdvancedFinancialCharts" Priority="1" Path="ChartTypes\FinancialCharts\Gallery" ID="Sample169">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Advanced Financial Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">FinancialGallery.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Gallery, Advanced Financial Charts</Keyword>
+          <Keyword>Advanced Financial Charts, Gallery</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="AdvancedFinancialCharts" Priority="100" Path="ChartTypes\FinancialCharts\Stock" ID="Sample170">
+        <Title>Stock and Candlestick Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Stock and Candlestick Chart Types</ShortBlurb>
+        <SampleControl>FinancialChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Open close marks</Keyword>
+          <Keyword>Chart type, Financial</Keyword>
+          <Keyword>Chart type, Stock</Keyword>
+          <Keyword>Chart type, Candlestick</Keyword>
+          <Keyword>Stock chart</Keyword>
+          <Keyword>Candlestick chart</Keyword>
+          <Keyword>Financial, Stock chart</Keyword>
+          <Keyword>Financial, Candlestick chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="PriceRangeFinanceCharts" ParentNodeID="ChartTypes" Priority="100" Path="ChartTypes" Title="Price Change Financial Charts">
+      <SampleConfig ParentNodeID="PriceRangeFinanceCharts" Priority="1" Path="ChartTypes\PriceRangeFinancialCharts\Gallery" ID="Sample183">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Price Change Financial Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">AdvancedFinanceGallery.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Gallery, Price Change Financial Charts</Keyword>
+          <Keyword>Price Change Financial Charts, Gallery</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PriceRangeFinanceCharts" Priority="200" Path="ChartTypes\PriceRangeFinancialCharts\Kagi" ID="Sample184">
+        <Title>Kagi Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Kagi Chart Type</ShortBlurb>
+        <SampleControl>KagiChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Kagi</Keyword>
+          <Keyword>Reversal Amount, Kagi</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PriceRangeFinanceCharts" Priority="300" Path="ChartTypes\PriceRangeFinancialCharts\Renko" ID="Sample186">
+        <Title>Renko Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Renko Chart Type</ShortBlurb>
+        <SampleControl>RenkoChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Renko</Keyword>
+          <Keyword>Box size</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PriceRangeFinanceCharts" Priority="400" Path="ChartTypes\PriceRangeFinancialCharts\PointAndFigure" ID="Sample185">
+        <Title>Point and Figure Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Point and Figure Chart Type</ShortBlurb>
+        <SampleControl>PointAndFigureChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Point and Figure</Keyword>
+          <Keyword>Reversal Amount, Point and Figure</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PriceRangeFinanceCharts" Priority="500" Path="ChartTypes\PriceRangeFinancialCharts\ThreeLineBreak" ID="Sample187">
+        <Title>Three Line Break Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Three Line Break Chart Type</ShortBlurb>
+        <SampleControl>ThreeLineBreakChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Three Line Break</Keyword>
+          <Keyword>NumberOfLineInBreak</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="BarColumnCharts" ParentNodeID="ChartTypes" Priority="200" Path="ChartTypes" Title="Bar and Column Charts">
+      <SampleConfig ParentNodeID="BarColumnCharts" Priority="1" Path="ChartTypes\BarColumnCharts" ID="Sample159">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Bar and Column Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">Gallery\BarColumnGallery.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Gallery, Bar Column Charts</Keyword>
+          <Keyword>Bar Column Charts, Gallery</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="BarColumnCharts" Path="ChartTypes\BarColumnCharts" ID="Sample155">
+        <Title>3D Bar and Column Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>3D Bar and Column Chart Types</ShortBlurb>
+        <SampleControl>BarColumn3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">3DBarColumn\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">3DBarColumn\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Clustered series</Keyword>
+          <Keyword>3D, Clustered</Keyword>
+          <Keyword>3D, Column chart</Keyword>
+          <Keyword>3D, Bar chart</Keyword>
+          <Keyword>Chart type, Column 3D</Keyword>
+          <Keyword>Chart type, Bar 3D</Keyword>
+          <Keyword>Bar Column Charts, 3D</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="BarColumnCharts" Path="ChartTypes\BarColumnCharts" ID="Sample156">
+        <Title>3D Cylinder Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>3D Cylinder Chart Type</ShortBlurb>
+        <SampleControl>Cylinder3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">3DCylinder\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">3DCylinder\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Cylinder</Keyword>
+          <Keyword>3D, Cylinder chart</Keyword>
+          <Keyword>Chart type, Cylinder 3D</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="BarColumnCharts" Path="ChartTypes\BarColumnCharts" ID="Sample157">
+        <Title>Bar and Column Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Bar and Column Chart Types</ShortBlurb>
+        <SampleControl>BarColumnChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">BarColumn\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">BarColumn\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Point width</Keyword>
+          <Keyword>Chart type, Bar</Keyword>
+          <Keyword>Chart type, Column</Keyword>
+          <Keyword>Bar Column Charts</Keyword>
+          <Keyword>Axis, End labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="BarColumnCharts" Path="ChartTypes\BarColumnCharts" ID="Sample158">
+        <Title>Stacked Bar and Column Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Stacked Bar and Column Chart Types</ShortBlurb>
+        <SampleControl>StackedChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">Stacked\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">Stacked\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Stacked</Keyword>
+          <Keyword>Stacked charts</Keyword>
+          <Keyword>100% Stacked charts</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="LineCharts" ParentNodeID="ChartTypes" Priority="300" Path="ChartTypes" Title="Line Charts">
+      <SampleConfig ParentNodeID="LineCharts" Priority="1" Path="ChartTypes\LineCharts\Gallery" ID="Sample174">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Line Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">LineGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="LineCharts" Priority="100" Path="ChartTypes\LineCharts\LineCurves" ID="Sample175">
+        <Title>Line, Step Line and Curve Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Line, Step Line and Curve Chart Types</ShortBlurb>
+        <SampleControl>LineCurvesChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Line</Keyword>
+          <Keyword>Chart type, Spline</Keyword>
+          <Keyword>Chart type, Stepline</Keyword>
+          <Keyword>Line Charts</Keyword>
+          <Keyword>Spline chart</Keyword>
+          <Keyword>Stepline chart</Keyword>
+          <Keyword>Labels, Data label position</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="LineCharts" Priority="200" Path="ChartTypes\LineCharts\FastLine" ID="Sample172">
+        <Title>Fast Line Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Fast Line Chart Type</ShortBlurb>
+        <SampleControl>FastLineChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Fast Line</Keyword>
+          <Keyword>Fast Line chart</Keyword>
+          <Keyword>Performance, Fast Line</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="LineCharts" Priority="300" Path="ChartTypes\LineCharts\3DLine" ID="Sample171">
+        <Title>3D Line and Curve Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>3D Line and Curve Chart Types</ShortBlurb>
+        <SampleControl>LineCurves3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Line Charts, 3D</Keyword>
+          <Keyword>Spline 3D</Keyword>
+          <Keyword>Stepline 3D</Keyword>
+          <Keyword>3D, Line chart</Keyword>
+          <Keyword>3D, Spline chart</Keyword>
+          <Keyword>3D, Stepline chart</Keyword>
+          <Keyword>Chart type, Line 3D</Keyword>
+          <Keyword>Chart type, Spline 3D</Keyword>
+          <Keyword>Chart type, Stepline 3D</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="PointCharts" ParentNodeID="ChartTypes" Priority="400" Path="ChartTypes" Title="Point Charts">
+      <SampleConfig ParentNodeID="PointCharts" Priority="1" Path="ChartTypes\PointCharts\Gallery" ID="Sample181">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Point and Bubble Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">PointBubbleGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PointCharts" Priority="100" Path="ChartTypes\PointCharts\Bubble" ID="Sample180">
+        <Title>Bubble Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Bubble Chart Type</ShortBlurb>
+        <SampleControl>BubbleChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Bubble Charts</Keyword>
+          <Keyword>Scaling, Bubble chart</Keyword>
+          <Keyword>Chart type, Bubble</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PointCharts" Priority="200" Path="ChartTypes\PointCharts\Point" ID="Sample182">
+        <Title>Point Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Point Chart Type</ShortBlurb>
+        <SampleControl>PointChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Point Charts</Keyword>
+          <Keyword>Marker, Size</Keyword>
+          <Keyword>Marker, Shape</Keyword>
+          <Keyword>Chart type, Point</Keyword>
+          <Keyword>Data Label, Position</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PointCharts" Priority="1200" Path="ChartTypes\LineCharts\FastLine" ID="Sample173">
+        <Title>Fast Point Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Fast Point Chart Type</ShortBlurb>
+        <SampleControl>FastLineChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Fast Point</Keyword>
+          <Keyword>Fast Point chart</Keyword>
+          <Keyword>Performance, Fast Point</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="PieDoughnutCharts" ParentNodeID="ChartTypes" Priority="500" Path="ChartTypes" Title="Pie and Doughnut Charts">
+      <SampleConfig ParentNodeID="PieDoughnutCharts" Priority="1" Path="ChartTypes\PieDoughnutCharts\Gallery" ID="Sample177">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Pie and Doughnut Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">PieDoughnutGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PieDoughnutCharts" Path="ChartFeatures\ChartArea\InsideDoughnut" ID="Sample47">
+        <Title>Doughnut Chart in Doughnut</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overlaying Chart Areas</ShortBlurb>
+        <SampleControl>ChartInDoughnut</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PieDoughnutCharts" Path="ChartTypes\PieDoughnutCharts\3DPie" ID="Sample176">
+        <Title>Pie and Doughnut Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Pie and Doughnut Chart Types</ShortBlurb>
+        <SampleControl>PieChart3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>3D, Pie chart</Keyword>
+          <Keyword>3D, Doughnut chart</Keyword>
+          <Keyword>Chart type, Doughnut</Keyword>
+          <Keyword>Chart type, Pie</Keyword>
+          <Keyword>Doughnut Charts</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PieDoughnutCharts" Path="ChartTypes\PieDoughnutCharts\PieCollected" ID="Sample178">
+        <Title>Collecting Small Pie Segments</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Collecting Small Pie Segments</ShortBlurb>
+        <SampleControl>PieCollected</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Pie Collecting Segments</Keyword>
+          <Keyword>Collected Pie Data</Keyword>
+          <Keyword>Collecting Small Pie Segments</Keyword>
+          <Keyword>Pie Charts, Collecting Small Segments</Keyword>
+          <Keyword>Doughnut Charts, Collecting Small Segments</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PieDoughnutCharts" Path="ChartTypes\PieDoughnutCharts\PieCollectedData" ID="Sample179">
+        <Title>Supplemental Pie Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Supplemental Pie Charts</ShortBlurb>
+        <SampleControl>PieCollectedData</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Supplemental Pie Charts</Keyword>
+          <Keyword>Pie Charts, Displaying Small Segments</Keyword>
+          <Keyword>Pie Charts, Supplemental Pie Charts</Keyword>
+          <Keyword>Doughnut Charts, Displaying Small Segments</Keyword>
+          <Keyword>Doughnut Charts, Supplemental Pie Charts</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="AreaCharts" ParentNodeID="ChartTypes" Priority="600" Path="ChartTypes" Title="Area Charts">
+      <SampleConfig ParentNodeID="AreaCharts" Priority="1" Path="ChartTypes\AreaCharts\Gallery" ID="Sample154">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Area Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">AreaGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="AreaCharts" Path="ChartTypes\AreaCharts" ID="Sample152">
+        <Title>3D Area and Spline Area Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>3D Area and Spline Area Charts</ShortBlurb>
+        <SampleControl>AreaChart3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">3DArea\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">3DArea\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Lighting</Keyword>
+          <Keyword>3D, Lighting</Keyword>
+          <Keyword>3D, Area chart</Keyword>
+          <Keyword>3D, Spline Area chart</Keyword>
+          <Keyword>3D, Spline Area chart</Keyword>
+          <Keyword>Marker lines</Keyword>
+          <Keyword>Tension, Spline Area 3D</Keyword>
+          <Keyword>Chart type, Area 3D</Keyword>
+          <Keyword>Chart type, Spline Area 3D</Keyword>
+          <Keyword>Area Charts, 3D</Keyword>
+          <Keyword>Area Charts, Spline Area 3D</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="AreaCharts" Path="ChartTypes\AreaCharts" ID="Sample153">
+        <Title>Area and Spline Area Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Area and Spline Area Charts</ShortBlurb>
+        <SampleControl>AreaChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">Area\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">Area\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Semi-transparent colors</Keyword>
+          <Keyword>Tension, Spline Area</Keyword>
+          <Keyword>Chart type, Area</Keyword>
+          <Keyword>Chart type, Spline Area</Keyword>
+          <Keyword>Area Charts, 2D</Keyword>
+          <Keyword>Area Charts, Spline Area 2D</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="RangeCharts" ParentNodeID="ChartTypes" Priority="700" Path="ChartTypes" Title="Range Charts">
+      <SampleConfig ParentNodeID="RangeCharts" Priority="1" Path="ChartTypes\RangeCharts\Gallery" ID="Sample193">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Range Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">RangeGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="RangeCharts" Priority="50" Path="ChartTypes\RangeCharts\Range" ID="Sample194">
+        <Title>Range and Spline Range Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Range and Spline Range Chart Types</ShortBlurb>
+        <SampleControl>RangeChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Range</Keyword>
+          <Keyword>Chart type, Spline Range</Keyword>
+          <Keyword>Spline Range chart</Keyword>
+          <Keyword>Range Charts</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="RangeCharts" Priority="100" Path="ChartTypes\RangeCharts\3DRange" ID="Sample191">
+        <Title>3D Range and Spline Range Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>3D Range and Spline Range Chart Types</ShortBlurb>
+        <SampleControl>Range3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Range Charts, 3D</Keyword>
+          <Keyword>Spline Range 3D</Keyword>
+          <Keyword>3D, Range chart</Keyword>
+          <Keyword>3D, Spline Range chart</Keyword>
+          <Keyword>Chart type, Spline Range 3D</Keyword>
+          <Keyword>Chart type, Range 3D</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="RangeCharts" Priority="125" Path="ChartTypes\RangeCharts\RangeBar" ID="Sample195">
+        <Title>Range Bar Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Range Bar Chart Type</ShortBlurb>
+        <SampleControl>RangeBarChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Range Bar</Keyword>
+          <Keyword>Range Bar chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="RangeCharts" Priority="150" Path="ChartTypes\RangeCharts\3DRangeBar" ID="Sample192">
+        <Title>3D Range Bar Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>3D Range Bar Chart Type</ShortBlurb>
+        <SampleControl>RangeBar3D</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, 3D Range Bar</Keyword>
+          <Keyword>3D Range Bar chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="RangeCharts" Priority="400" Path="ChartTypes\RangeCharts\RangeColumn" ID="Sample196">
+        <Title>Range Column Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Range Column Chart Type</ShortBlurb>
+        <SampleControl>RangeColumnChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Range Column</Keyword>
+          <Keyword>Range Column chart</Keyword>
+          <Keyword>Side by side columns</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="CircularCharts" ParentNodeID="ChartTypes" Priority="900" Path="ChartTypes" Title="Circular Charts">
+      <SampleConfig ParentNodeID="CircularCharts" Priority="1" Path="ChartTypes\CircularCharts\Gallery" ID="Sample162">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Circular Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">CircularGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="CircularCharts" Path="ChartTypes\CircularCharts" ID="Sample160">
+        <Title>Polar Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Polar Chart Type</ShortBlurb>
+        <SampleControl>PolarChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">Polar\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">Polar\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Polar</Keyword>
+          <Keyword>Polar Charts</Keyword>
+          <Keyword>Data Label, Polar Labels Style</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="CircularCharts" Path="ChartTypes\CircularCharts" ID="Sample161">
+        <Title>Radar Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Radar Chart Type</ShortBlurb>
+        <SampleControl>RadarChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">Radar\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">Radar\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Radar</Keyword>
+          <Keyword>Radar Charts</Keyword>
+          <Keyword>Data Label, Radar Labels style</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="CombinationalCharts" ParentNodeID="ChartTypes" Priority="1000" Path="ChartTypes" Title="Combinational Charts">
+      <SampleConfig ParentNodeID="CombinationalCharts" Priority="1" Path="ChartTypes\CombinationalCharts\Gallery" ID="Sample165">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Combining Chart Types</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">CombinationGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="CombinationalCharts" Path="ChartTypes\CombinationalCharts" ID="Sample163">
+        <Title>Combination of Chart Types</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Combination of Chart Types</ShortBlurb>
+        <SampleControl>CombinatorialChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">Combinatorial\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">Combinatorial\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Gallery, Combination Chart</Keyword>
+          <Keyword>Combination Chart, Gallery</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="CombinationalCharts" Path="ChartTypes\CombinationalCharts" ID="Sample164">
+        <Title>Pareto Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Pareto Chart</ShortBlurb>
+        <SampleControl>ParetoChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">Pareto\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">Pareto\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Pareto</Keyword>
+          <Keyword>Pareto chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="DataDistributionCharts" ParentNodeID="ChartTypes" Priority="1100" Path="ChartTypes" Title="Data Distribution Charts">
+      <SampleConfig ParentNodeID="DataDistributionCharts" Path="ChartTypes\DataDistributionCharts\BoxPlot" ID="Sample166">
+        <Title>Box Plot Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Box Plot Chart Type</ShortBlurb>
+        <SampleControl>BoxPlotChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data distribution</Keyword>
+          <Keyword>Box plot</Keyword>
+          <Keyword>Whiskers</Keyword>
+          <Keyword>Percentiles</Keyword>
+          <Keyword>Unusual points</Keyword>
+          <Keyword>Chart type, Box</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataDistributionCharts" Path="ChartTypes\DataDistributionCharts\Histogram" ID="Sample167">
+        <Title>Histogram Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Histogram Chart Type</ShortBlurb>
+        <SampleControl>HistogramChart</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Histogram</Keyword>
+          <Keyword>Histogram</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="PyramidFunnelCharts" ParentNodeID="ChartTypes" Priority="1200" Path="ChartTypes" Title="Accumulation Charts">
+      <SampleConfig ParentNodeID="PyramidFunnelCharts" Priority="1" Path="ChartTypes\PyramidFunnelCharts\Gallery" ID="Sample189">
+        <Title>Gallery</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Pyramid and Funnel Chart Gallery</ShortBlurb>
+        <SampleControl>None</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Gallery">AccumulationGallery.htm</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PyramidFunnelCharts" Path="ChartTypes\PyramidFunnelCharts\Funnel" ID="Sample188">
+        <Title>Funnel Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Funnel Chart Type</ShortBlurb>
+        <SampleControl>FunnelChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Funnel</Keyword>
+          <Keyword>Funnel Charts</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="PyramidFunnelCharts" Path="ChartTypes\PyramidFunnelCharts\Pyramid" ID="Sample190">
+        <Title>Pyramid Chart</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Pyramid Chart Type</ShortBlurb>
+        <SampleControl>PyramidChartType</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart type, Pyramid</Keyword>
+          <Keyword>Pyramid Charts</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <SampleConfig ParentNodeID="ChartTypes" Path="ChartTypes\ErrorBar" ID="Sample168">
+      <Title>Error Bar Chart</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Error Bar Chart Type</ShortBlurb>
+      <SampleControl>ErrorBarChartType</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Chart type, Error bar</Keyword>
+        <Keyword>Error bar chart</Keyword>
+      </Keywords>
+    </SampleConfig>
+  </TOCNode>
+  <TOCNode ID="GettingStarted" Priority="100" Path="GettingStarted" Title="Getting Started">
+    <SampleConfig ParentNodeID="GettingStarted" Priority="100" Path="GettingStarted\ChartElements" ID="Sample198">
+      <Title>Chart Elements</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Chart Elements Overview</ShortBlurb>
+      <SampleControl>None</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Data, Overview</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="GettingStarted" Priority="200" Path="GettingStarted\CreatingFirstChart" ID="Sample200">
+      <Title>Creating a Basic Chart</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Creating a Basic Chart</ShortBlurb>
+      <SampleControl>None</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Data, Overview</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="GettingStarted" Priority="400" Path="GettingStarted\CoordinateSystem" ID="Sample199">
+      <Title>Coordinate System</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Coordinate System</ShortBlurb>
+      <SampleControl>None</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Data, Overview</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="GettingStarted" Priority="500" Path="GettingStarted\Text" ID="Sample203">
+      <Title>Text Elements</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Text Elements</ShortBlurb>
+      <SampleControl>Text Overview</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Text Elements</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="GettingStarted" Priority="700" Path="GettingStarted\SeriesAndPoints" ID="Sample202">
+      <Title>Series and Points</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Series and Points</ShortBlurb>
+      <SampleControl>Series and Points Overview</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Series and Points, Overview</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="GettingStarted" Priority="800" Path="GettingStarted\BasicPopulatingData" ID="Sample197">
+      <Title>Basic Data Population</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Populating the Chart with Data</ShortBlurb>
+      <SampleControl>BasicPopulatingData</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords />
+    </SampleConfig>
+    <SampleConfig ParentNodeID="GettingStarted" Priority="900" Path="GettingStarted\DynamicChartCreation" ID="Sample201">
+      <Title>Creating a Chart Dynamically</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Creating a Chart Dynamically</ShortBlurb>
+      <SampleControl>DynamicChartCreation</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Creating a Chart Dynamically</Keyword>
+        <Keyword>Dynamically Creating a Chart</Keyword>
+        <Keyword>Chart, Creating Dynamically</Keyword>
+      </Keywords>
+    </SampleConfig>
+  </TOCNode>
+  <TOCNode ID="PopulatingChartData" Priority="150" Path="WorkingWithData" Title="Working with Data">
+    <SampleConfig ParentNodeID="PopulatingChartData" Priority="1" Path="WorkingWithData\Overview" ID="Sample264">
+      <Title>Overview</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Working with Data</ShortBlurb>
+      <SampleControl>Overview</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">Overview.htm</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Data, Working with</Keyword>
+        <Keyword>Working with Data</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="PopulatingChartData" Priority="50" Path="WorkingWithData\ManyYBubble" ID="Sample263">
+      <Title>Multiple Y Values</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Multiple Y Values</ShortBlurb>
+      <SampleControl>ManyYBubble</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Multiple Y Values</Keyword>
+        <Keyword>Y Values</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <TOCNode ID="Data binding" ParentNodeID="PopulatingChartData" Priority="100" Path="WorkingWithData" Title="Data Binding">
+      <SampleConfig ParentNodeID="Data binding" Priority="100" Path="WorkingWithData\DataBinding\Overview" ID="Sample212">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Binding</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data Binding</Keyword>
+          <Keyword>Binding Data</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Priority="200" Path="WorkingWithData\DataBinding\DataBindTable" ID="Sample208">
+        <Title>Data Binding a Table</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Binding a Table</ShortBlurb>
+        <SampleControl>DataBindTable</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Simple table binding</Keyword>
+          <Keyword>Binding, Table</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Priority="300" Path="WorkingWithData\DataBinding\DataSourceBinding" ID="Sample210">
+        <Title>Data Source Binding</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Source Binding</ShortBlurb>
+        <SampleControl>DataSourceBinding</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding to data source</Keyword>
+          <Keyword>Binding, Data source</Keyword>
+          <Keyword>Data source binding</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Priority="400" Path="WorkingWithData\DataBinding\DatabaseBindingY" ID="Sample206">
+        <Title>Data Binding Y Values</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Binding Y Values</ShortBlurb>
+        <SampleControl>DatabaseBindingY</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding Y value</Keyword>
+          <Keyword>Binding, Y value</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Priority="500" Path="WorkingWithData\DataBinding\DatabaseBindingXY" ID="Sample204">
+        <Title>Data Binding X and Y Values</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Binding X and Y Values</ShortBlurb>
+        <SampleControl>DatabaseBindingXY</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding X and Y values</Keyword>
+          <Keyword>Binding, X and Y values</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Priority="600" Path="WorkingWithData\DataBinding\ExtendedDataBinding" ID="Sample211">
+        <Title>Extended Data Binding</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Extended Data Binding</ShortBlurb>
+        <SampleControl>ExtendedDataBinding</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Binding, Tooltips, Labels</Keyword>
+          <Keyword>Binding, Point Attributes</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Priority="700" Path="WorkingWithData\DataBinding\DataBindCrossTab" ID="Sample207">
+        <Title>Cross-Table Data Binding</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Cross-Table Data Binding</ShortBlurb>
+        <SampleControl>DataBindCrosstab</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Cross table</Keyword>
+          <Keyword>Binding, cross table</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Data binding" Path="WorkingWithData\DataBinding\SeriesByRows" ID="Sample213">
+        <Title>Binding Series By Rows</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding Series By Rows</ShortBlurb>
+        <SampleControl>SeriesByRows</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding Series By Rows</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="DataSourceTypes" ParentNodeID="PopulatingChartData" Priority="200" Path="WorkingWithData" Title="Data Source Types">
+      <SampleConfig ParentNodeID="DataSourceTypes" Priority="1" Path="WorkingWithData\DataSourceTypes\Overview" ID="Sample241">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Sources</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data Binding</Keyword>
+          <Keyword>Binding Data</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSourceTypes" Path="WorkingWithData\DataBinding\DatabaseBindingXY" ID="Sample205">
+        <Title>Binding X and Y Values</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding X and Y Values</ShortBlurb>
+        <SampleControl>DatabaseBindingXY</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding X and Y values</Keyword>
+          <Keyword>Binding, X and Y values</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSourceTypes" Path="WorkingWithData\DataSourceTypes\ArrayBinding" ID="Sample235">
+        <Title>Binding to Arrays</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding to Arrays</ShortBlurb>
+        <SampleControl>ArrayBinding</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding to array</Keyword>
+          <Keyword>Binding, Array</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSourceTypes" Path="WorkingWithData\DataSourceTypes\CSVDataBindingBinding" ID="Sample236">
+        <Title>Binding to CSV Files</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding to CSV Files</ShortBlurb>
+        <SampleControl>CSVDataBinding</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding to comma separated source</Keyword>
+          <Keyword>Binding, comma separated</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSourceTypes" Path="WorkingWithData\DataSourceTypes\DatabaseDataview" ID="Sample238">
+        <Title>Binding to Dataviews</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding to Dataviews</ShortBlurb>
+        <SampleControl>DatabaseDataview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding to data view</Keyword>
+          <Keyword>Binding, Data view</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSourceTypes" Path="WorkingWithData\DataSourceTypes\ExcelData" ID="Sample239">
+        <Title>Binding to Excel Files</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding to Excel Files</ShortBlurb>
+        <SampleControl>ExcelData</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding to Excel file</Keyword>
+          <Keyword>Binding, Excel file</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSourceTypes" Path="WorkingWithData\DataSourceTypes\XMLData" ID="Sample242">
+        <Title>Binding to XML Files</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Binding to XML Files</ShortBlurb>
+        <SampleControl>XMLData</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Binding to XML</Keyword>
+          <Keyword>Binding, XML</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <SampleConfig ParentNodeID="PopulatingChartData" Priority="250" Path="WorkingWithData\DymamicPointAdd" ID="Sample243">
+      <Title>Adding Dynamic Data</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Adding Dynamic Data</ShortBlurb>
+      <SampleControl>DymamicPointAdd</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Data, Adding using API</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <TOCNode ID="DataManipulation" ParentNodeID="PopulatingChartData" Priority="300" Path="WorkingWithData" Title="Data Manipulation">
+      <SampleConfig ParentNodeID="DataManipulation" Priority="1" Path="WorkingWithData\DataManipulation\Overview" ID="Sample229">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Data Manipulation</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data Manipulation</Keyword>
+          <Keyword>Manipulating Data</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <TOCNode ID="CopyingSeriesValues" ParentNodeID="DataManipulation" Priority="100" Path="WorkingWithData" Title="Copying Series Values">
+        <SampleConfig ParentNodeID="CopyingSeriesValues" Path="WorkingWithData\DataManipulation\CopyingSeriesValues" ID="Sample215">
+          <Title>Merging Series Values</Title>
+          <Thumbnail>MergingValues\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Merging Series Values</ShortBlurb>
+          <SampleControl>MergingValues</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">MergingValues\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">MergingValues\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Merging series</Keyword>
+            <Keyword>Data manipulation, Merging series</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="CopyingSeriesValues" Path="WorkingWithData\DataManipulation\CopyingSeriesValues" ID="Sample216">
+          <Title>Splitting Series Values</Title>
+          <Thumbnail>SplittingValues\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Splitting Series Values</ShortBlurb>
+          <SampleControl>SplittingValues</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">SplittingValues\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">SplittingValues\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Splitting series</Keyword>
+            <Keyword>Data manipulation, Splitting series</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="Exporting" ParentNodeID="DataManipulation" Priority="100" Path="WorkingWithData" Title="Exporting">
+        <SampleConfig ParentNodeID="Exporting" Path="WorkingWithData\DataManipulation\Exporting" ID="Sample217">
+          <Title>Exporting Values in XML</Title>
+          <Thumbnail>XML\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Exporting Values in XML</ShortBlurb>
+          <SampleControl>ExportingInXML</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">DataGridBinding\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">XML\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">XML\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Exporting series data</Keyword>
+            <Keyword>Series, Exporting data</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Exporting" Path="WorkingWithData\DataManipulation\Exporting" ID="Sample218">
+          <Title>Data Binding to Exported Values</Title>
+          <Thumbnail>DataGridBinding\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Data Binding to Exported Values</ShortBlurb>
+          <SampleControl>DataGridBinding</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">DataGridBinding\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">DataGridBinding\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">DataGridBinding\vbcode.txt</InfoPage>
+          </InfoPages>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="Filtering" ParentNodeID="DataManipulation" Priority="100" Path="WorkingWithData" Title="Filtering">
+        <SampleConfig ParentNodeID="Filtering" Priority="100" Path="WorkingWithData\DataManipulation\Filtering\FilterTopN" ID="Sample221">
+          <Title>Filtering Top N Values</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Filtering Top N Values</ShortBlurb>
+          <SampleControl>FilterTopN</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="VB.NET Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Filtering Top N values</Keyword>
+            <Keyword>Filtering, Top N values</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Filtering" Priority="200" Path="WorkingWithData\DataManipulation\Filtering\FilterDateRange" ID="Sample220">
+          <Title>Filtering Date Ranges</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Filtering Date Ranges</ShortBlurb>
+          <SampleControl>FilterDateRange</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="VB.NET Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Filtering dates</Keyword>
+            <Keyword>Filtering, Dates</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Filtering" Priority="300" Path="WorkingWithData\DataManipulation\Filtering\FilterYValuesRange" ID="Sample223">
+          <Title>Filtering by Y or X Values</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Filtering by Y or X Values</ShortBlurb>
+          <SampleControl>FilterYValuesRange</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="VB.NET Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Filtering Y values</Keyword>
+            <Keyword>Filtering, Y values</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Filtering" Priority="400" Path="WorkingWithData\DataManipulation\Filtering\FilterWithCustomCriteria" ID="Sample222">
+          <Title>Custom Filtering Criteria</Title>
+          <Thumbnail>FilterWithCustomCriteria\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Custom Filtering Criteria</ShortBlurb>
+          <SampleControl>FilterWithCustomCriteria</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="VB.NET Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Custom filtering</Keyword>
+            <Keyword>Filtering, Custom</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Filtering" Priority="5000" Path="WorkingWithData\DataManipulation\Filtering\FilterBandPass" ID="Sample219">
+          <Title>Band-Pass Filter</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Band-Pass Filter</ShortBlurb>
+          <SampleControl>BandPassFilter</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Band-Pass Filter</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="Grouping" ParentNodeID="DataManipulation" Priority="100" Path="WorkingWithData" Title="Grouping">
+        <SampleConfig ParentNodeID="Grouping" Path="WorkingWithData\DataManipulation\Grouping" ID="Sample226">
+          <Title>Grouping Stock Prices</Title>
+          <Thumbnail>GroupingStockData\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Grouping Stock Prices</ShortBlurb>
+          <SampleControl>GroupingStockData</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">GroupingByAxisLabel\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">GroupingStockData\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">GroupingStockData\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Grouping data</Keyword>
+            <Keyword>Grouping, Stock data</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Grouping" Path="WorkingWithData\DataManipulation\Grouping" ID="Sample227">
+          <Title>Grouping Formulas</Title>
+          <Thumbnail>GroupingFormulas\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Grouping Formulas</ShortBlurb>
+          <SampleControl>GroupingFormulas</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">GroupingByAxisLabel\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">GroupingFormulas\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">GroupingFormulas\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Grouping, Formulas</Keyword>
+            <Keyword>Interval, Grouping</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Grouping" Path="WorkingWithData\DataManipulation\Grouping" ID="Sample228">
+          <Title>Grouping by Axis Label</Title>
+          <Thumbnail>GroupingByAxisLabel\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Grouping by Axis Label</ShortBlurb>
+          <SampleControl>GroupingByAxisLabel</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">GroupingByAxisLabel\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">GroupingByAxisLabel\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">GroupingByAxisLabel\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Grouping, By axis labels</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="SeriesAlignment" ParentNodeID="DataManipulation" Priority="100" Path="WorkingWithData" Title="Series Alignment">
+        <SampleConfig ParentNodeID="SeriesAlignment" Path="WorkingWithData\DataManipulation\SeriesAlignment" ID="Sample230">
+          <Title>Series Alignment</Title>
+          <Thumbnail>SeriesAlignment\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Series Alignment</ShortBlurb>
+          <SampleControl>SeriesAlignment</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">SeriesAlignment\overview.htm</InfoPage>
+            <InfoPage Title="C# Source">SeriesAlignment\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">SeriesAlignment\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Series, Alignment</Keyword>
+            <Keyword>Alignment, Series</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="FindingSeriesPoints" ParentNodeID="DataManipulation" Priority="100" Path="DataManipulation" Title="Finding Series Points">
+        <SampleConfig ParentNodeID="FindingSeriesPoints" Path="WorkingWithData\DataManipulation\FindingSeriesPoints" ID="Sample224">
+          <Title>Finding Max/Min Values</Title>
+          <Thumbnail>FindByMaxMinValues\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Finding Maximum and Minimum Values</ShortBlurb>
+          <SampleControl>FindByMaxMinValues</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">FindByMaxMinValues\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">FindByMaxMinValues\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Finding Max/Min values</Keyword>
+            <Keyword>Finding max/min data values</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FindingSeriesPoints" Path="WorkingWithData\DataManipulation\FindingSeriesPoints" ID="Sample225">
+          <Title>Finding Multiple Points by Values</Title>
+          <Thumbnail>FindByValue\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Finding Multiple Points by Values</ShortBlurb>
+          <SampleControl>FindByValue</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">FindByValue\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">FindByValue\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data manipulation, Finding value</Keyword>
+            <Keyword>Finding data value</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="Sorting" ParentNodeID="DataManipulation" Priority="100" Path="DataManipulation" Title="Sorting">
+        <SampleConfig ParentNodeID="Sorting" Path="WorkingWithData\DataManipulation\Sorting" ID="Sample232">
+          <Title>Ascending/Descending Sorts</Title>
+          <Thumbnail>Sorting\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Ascending and Descending Sorts</ShortBlurb>
+          <SampleControl>Sorting</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">Sorting\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">Sorting\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Sorting data</Keyword>
+            <Keyword>Series, Sorting data</Keyword>
+            <Keyword>Data manipulation, Sorting data</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Sorting" Path="WorkingWithData\DataManipulation\Sorting" ID="Sample233">
+          <Title>Custom Sort Orders</Title>
+          <Thumbnail>CustomSortingOrder\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Custom Sorting</ShortBlurb>
+          <SampleControl>CustomSortingOrder</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">CustomSortingOrder\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">CustomSortingOrder\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Series, Custom data sorting</Keyword>
+            <Keyword>Data manipulation, Custom data sorting</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <SampleConfig ParentNodeID="DataManipulation" Priority="5000" Path="WorkingWithData\DataManipulation\SpikeRemoval" ID="Sample234">
+        <Title>Spike Removal</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Spike Removal</ShortBlurb>
+        <SampleControl>SpikeRemoval</SampleControl>
+        <InfoPages />
+        <Keywords>
+          <Keyword>Spike Removal</Keyword>
+          <Keyword>Remove Data Spikes</Keyword>
+          <Keyword>Data, Remove Spikes</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Formulas" ParentNodeID="PopulatingChartData" Priority="300" Path="Formulas" Title="Formulas">
+      <TOCNode ID="Statistical" ParentNodeID="Formulas" Priority="100" Path="Formulas" Title="Statistical">
+        <SampleConfig ParentNodeID="Statistical" Priority="1" Path="WorkingWithData\Formulas\Statistical\Overview" ID="Sample262">
+          <Title>Overview</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Statistical Formulas</ShortBlurb>
+          <SampleControl>Overview</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data, Manipulation</Keyword>
+            <Keyword>Statistical Formulas</Keyword>
+            <Keyword>Formulas, Statistical</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Statistical" Path="WorkingWithData\Formulas\Statistical" ID="Sample256">
+          <Title>Descriptive Statistics</Title>
+          <Thumbnail>Descriptive Statistics\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Descriptive Statistics</ShortBlurb>
+          <SampleControl>DescriptiveStatistics</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">Descriptive Statistics\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">Descriptive Statistics\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Statistical, Mean</Keyword>
+            <Keyword>Statistical, Variance</Keyword>
+            <Keyword>Statistical, Median</Keyword>
+            <Keyword>Statistical, Standard Deviation</Keyword>
+            <Keyword>Mean formula</Keyword>
+            <Keyword>Variance formula</Keyword>
+            <Keyword>Median formula</Keyword>
+            <Keyword>Statistical Standard Deviation</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Statistical" Path="WorkingWithData\Formulas\Statistical" ID="Sample257">
+          <Title>Distributions</Title>
+          <Thumbnail>Distributions\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Distribution formulas</ShortBlurb>
+          <SampleControl>Distributions</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">Distributions\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">Distributions\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Statistical Analysis, Distributions</Keyword>
+            <Keyword>Distribution formulas</Keyword>
+            <Keyword>Normal Distribution formula</Keyword>
+            <Keyword>T Distribution formula</Keyword>
+            <Keyword>F Distribution formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Statistical" Path="WorkingWithData\Formulas\Statistical" ID="Sample258">
+          <Title>TTest</Title>
+          <Thumbnail>TTest\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using T-Test Formulas</ShortBlurb>
+          <SampleControl>TTest</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">TTest\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">TTest\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Statistical, t-test</Keyword>
+            <Keyword>t-test formulas</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Statistical" Path="WorkingWithData\Formulas\Statistical" ID="Sample259">
+          <Title>ANOVA</Title>
+          <Thumbnail>ANOVA\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using ANOVA formulas</ShortBlurb>
+          <SampleControl>ANOVA</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">ANOVA\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">ANOVA\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Statistical, ANOVA</Keyword>
+            <Keyword>ANOVA formulas</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Statistical" Path="WorkingWithData\Formulas\Statistical" ID="Sample260">
+          <Title>FTest</Title>
+          <Thumbnail>Ftest\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using F-Test Formulas</ShortBlurb>
+          <SampleControl>FTest</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">FTest\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">FTest\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Statistical, F-Test</Keyword>
+            <Keyword>F-Test formulas</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Statistical" Path="WorkingWithData\Formulas\Statistical" ID="Sample261">
+          <Title>Covariance and Correlation</Title>
+          <Thumbnail>CovarianceAndCorrelation\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Covariance and Correlation</ShortBlurb>
+          <SampleControl>CovarianceAndCorrelation</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">CovarianceAndCorrelation\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">CovarianceAndCorrelation\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Statistical, Covariance and Correlation</Keyword>
+            <Keyword>Covariance formulas</Keyword>
+            <Keyword>Correlation formulas</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="FinancialFormulas" ParentNodeID="Formulas" Priority="100" Path="Formulas" Title="Financial">
+        <SampleConfig ParentNodeID="FinancialFormulas" Priority="1" Path="WorkingWithData\Formulas\Financial\Overview" ID="Sample255">
+          <Title>Overview</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Financial Formulas</ShortBlurb>
+          <SampleControl>Overview</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">Overview.htm</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Data Manipulation</Keyword>
+            <Keyword>Financial Formulas</Keyword>
+            <Keyword>Formulas, Financial</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FinancialFormulas" Path="WorkingWithData\Formulas\Financial" ID="Sample249">
+          <Title>Moving Averages</Title>
+          <Thumbnail>MovingAverages\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Moving Averages</ShortBlurb>
+          <SampleControl>MovingAverages</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">MovingAverages\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">MovingAverages\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">MovingAverages\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Formulas, Moving Averages</Keyword>
+            <Keyword>Financial, Moving Averages formulas</Keyword>
+            <Keyword>Moving Average formulas</Keyword>
+            <Keyword>Exponential Moving Average formula</Keyword>
+            <Keyword>Triangular Moving Average formula</Keyword>
+            <Keyword>Weighted Moving Average formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FinancialFormulas" Path="WorkingWithData\Formulas\Financial" ID="Sample250">
+          <Title>Price Indicators</Title>
+          <Thumbnail>PriceIndicators\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Price Indicators</ShortBlurb>
+          <SampleControl>PriceIndicators</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">PriceIndicators\Overview.htm</InfoPage>
+            <InfoPage Title="C# Source">PriceIndicators\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">PriceIndicators\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Formulas, Price Indicators</Keyword>
+            <Keyword>Financial, Price Indicator formulas</Keyword>
+            <Keyword>Price Indicator  formulas</Keyword>
+            <Keyword>Typical Price formula</Keyword>
+            <Keyword>Median Price formula</Keyword>
+            <Keyword>Weighted Close formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FinancialFormulas" Path="WorkingWithData\Formulas\Financial" ID="Sample251">
+          <Title>Volume Indicators</Title>
+          <Thumbnail>VolumeIndicators\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Volume Indicators</ShortBlurb>
+          <SampleControl>VolumeIndicators</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">VolumeIndicators\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">VolumeIndicators\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Formulas, Volume Indicators</Keyword>
+            <Keyword>Financial, Volume Indicator formulas</Keyword>
+            <Keyword>Volume Indicator formulas</Keyword>
+            <Keyword>Accumulation Distribution formula</Keyword>
+            <Keyword>Chaikin Oscillator formula</Keyword>
+            <Keyword>Ease of Movement formula</Keyword>
+            <Keyword>Money Flow formula</Keyword>
+            <Keyword>Negative Volume Index formula</Keyword>
+            <Keyword>On Balance Volume formula</Keyword>
+            <Keyword>Positive Volume Index formula</Keyword>
+            <Keyword>Price Volume Trend formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FinancialFormulas" Path="WorkingWithData\Formulas\Financial" ID="Sample252">
+          <Title>Technical Price Indicators</Title>
+          <Thumbnail>TechnicalPriceIndicators\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Technical Price Indicators</ShortBlurb>
+          <SampleControl>TechnicalPriceIndicators</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">TechnicalPriceIndicators\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">TechnicalPriceIndicators\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Formulas, Technical Price Indicators</Keyword>
+            <Keyword>Financial, Technical Price Indicator formulas</Keyword>
+            <Keyword>Technical Price Indicator formulas</Keyword>
+            <Keyword>Average True Range formula</Keyword>
+            <Keyword>Commodity Channel Index formula</Keyword>
+            <Keyword>Detrended Price Oscillator formula</Keyword>
+            <Keyword>Mass Index formula</Keyword>
+            <Keyword>Moving Average Convergence Divergence formula</Keyword>
+            <Keyword>MACD formula</Keyword>
+            <Keyword>Performance formula</Keyword>
+            <Keyword>Rate of Change formula</Keyword>
+            <Keyword>Relative Strength Index formula</Keyword>
+            <Keyword>Financial Standard Deviation</Keyword>
+            <Keyword>Stochastic Indicator formula</Keyword>
+            <Keyword>TRIX formula</Keyword>
+            <Keyword>Volatility Chaikins formula</Keyword>
+            <Keyword>William's %R formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FinancialFormulas" Path="WorkingWithData\Formulas\Financial" ID="Sample253">
+          <Title>Range Indicators</Title>
+          <Thumbnail>RangeIndicators\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Range Indicators</ShortBlurb>
+          <SampleControl>RangeIndicators</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">RangeIndicators\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">RangeIndicators\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Formulas, Range Indicators</Keyword>
+            <Keyword>Financial, Range Indicator formulas</Keyword>
+            <Keyword>Range Indicator formulas</Keyword>
+            <Keyword>Bollinger Bands formula</Keyword>
+            <Keyword>Envelopes formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="FinancialFormulas" Path="WorkingWithData\Formulas\Financial" ID="Sample254">
+          <Title>Forecasting</Title>
+          <Thumbnail>Forecasting\thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Forecasting</ShortBlurb>
+          <SampleControl>Forecasting</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">Forecasting\cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">Forecasting\vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Formulas, Time Series/Forecasting</Keyword>
+            <Keyword>Financial, Time Series/Forecasting formulas</Keyword>
+            <Keyword>Time Series/Forecasting formulas</Keyword>
+            <Keyword>Regression Analysis formula</Keyword>
+            <Keyword>Trend analysis formula</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+    </TOCNode>
+    <TOCNode ID="EmptyPoints" ParentNodeID="PopulatingChartData" Priority="400" Path="WorkingWithData" Title="Empty Points">
+      <SampleConfig ParentNodeID="EmptyPoints" Priority="1" Path="WorkingWithData\EmptyPoints\Overview" ID="Sample248">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Empty Points</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Empty Points</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="EmptyPoints" Priority="10" Path="WorkingWithData\EmptyPoints\EmptyPointsAppearance" ID="Sample244">
+        <Title>Empty Point Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Empty Point Appearance</ShortBlurb>
+        <SampleControl>EmptyPointAppearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Empty points, Appearance</Keyword>
+          <Keyword>Appearance, Empty points</Keyword>
+          <Keyword>Empty points, Point value</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="EmptyPoints" Priority="11" Path="WorkingWithData\EmptyPoints\InsertingEmptyPoints" ID="Sample246">
+        <Title>Inserting Empty Points</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Inserting Empty Points</ShortBlurb>
+        <SampleControl>InsertingEmptyPoints</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>Labels, Text Style</Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="EmptyPoints" Path="WorkingWithData\DataManipulation\SeriesAlignment" ID="Sample231">
+        <Title>Series Alignment</Title>
+        <Thumbnail>SeriesAlignment\thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Series Alignment</ShortBlurb>
+        <SampleControl>SeriesAlignment</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">SeriesAlignment\overview.htm</InfoPage>
+          <InfoPage Title="C# Source">SeriesAlignment\cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">SeriesAlignment\vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Alignment</Keyword>
+          <Keyword>Alignment, Series</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="RealTimeData" ParentNodeID="PopulatingChartData" Priority="500" Path="WorkingWithData" Title="Real Time Data">
+      <SampleConfig ParentNodeID="RealTimeData" Path="WorkingWithData\RealTimeData\RealTimeThread" ID="Sample265">
+        <Title>Real Time Data (Thread Safe)</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Feeding with Real Time Data</ShortBlurb>
+        <SampleControl>RealTimeSample</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Real time</Keyword>
+          <Keyword>Real Time Data, Thread Safe</Keyword>
+          <Keyword>Thread Safe</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="RealTimeData" Path="WorkingWithData\RealTimeData\RealTimeTimer" ID="Sample266">
+        <Title>Real Time Data (Timer)</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Real Time Data (Timer)</ShortBlurb>
+        <SampleControl>RealTimeData</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data, Real time</Keyword>
+          <Keyword>Real Time Data, Using Timers</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="WorkingWithDates" ParentNodeID="PopulatingChartData" Priority="600" Path="WorkingWithData" Title="Working with Dates">
+      <SampleConfig ParentNodeID="WorkingWithDates" Priority="1" Path="WorkingWithData\WorkingWithDates\Overview" ID="Sample267">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Working with Dates</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Dates, Working with</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="WorkingWithDates" Path="WorkingWithData\WorkingWithDates\RetrievingAssigningDates" ID="Sample268">
+        <Title>Retrieving and Assigning Dates</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Retrieving and Assigning Dates</ShortBlurb>
+        <SampleControl>RetrievingAssigningDates</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Working with Dates</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="WorkingWithDates" Path="WorkingWithData\WorkingWithDates\TimeScale" ID="Sample269">
+        <Title>Real Time Scale</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Real Time Scale</ShortBlurb>
+        <SampleControl>TimeScale</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Real Time Data, Working with Dates</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <SampleConfig ParentNodeID="PopulatingChartData" Path="WorkingWithData\DatabindThenAlignAxisLabel" ID="Sample214">
+      <Title>Aligning Data By Axis Label</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Aligning Data By Axis Label</ShortBlurb>
+      <SampleControl>AligningAxisLabel</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Data, Alignment by Axis Labels</Keyword>
+        <Keyword>Binding, Alignment by Axis Labels</Keyword>
+      </Keywords>
+    </SampleConfig>
+  </TOCNode>
+  <TOCNode ID="ChartAppearance" Priority="300" Path="ChartAppearance" Title="Appearance">
+    <SampleConfig ParentNodeID="ChartAppearance" Priority="200" Path="ChartFeatures\ChartArea\Appearance" ID="Sample41">
+      <Title>Plotting Area Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Plotting Area Appearance</ShortBlurb>
+      <SampleControl>Appearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Appearance, Chart area</Keyword>
+        <Keyword>Chart area, Appearance</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartAppearance\AntiAliasingSample" ID="Sample1">
+      <Title>Anti Aliasing</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Using Anti Aliasing</ShortBlurb>
+      <SampleControl>AntiAliasingSample</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Antialiasing</Keyword>
+        <Keyword>Appearance, Antialiasing</Keyword>
+        <Keyword>Title, Antialiasing</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartAppearance\Appearance" ID="Sample2">
+      <Title>Chart Background Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Chart Background</ShortBlurb>
+      <SampleControl>ChartAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Appearance</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartAppearance\Borders" ID="Sample3">
+      <Title>Border Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Border Appearance</ShortBlurb>
+      <SampleControl>Borders</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Border skin</Keyword>
+        <Keyword>Appearance, Border</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartAppearance\UsingGaps3D" ID="Sample4">
+      <Title>3D Point Gap and Depth</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>3D Point Gap and Depth</ShortBlurb>
+      <SampleControl>UsingGaps3D</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Depth</Keyword>
+        <Keyword>3D, Point and gap depth</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartAppearance\UsingPerspectives" ID="Sample5">
+      <Title>3D Perspective</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Using 3D Perspective</ShortBlurb>
+      <SampleControl>UsingPerspectives</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Perspective</Keyword>
+        <Keyword>3D, Perspective</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\Axis\Appearance" ID="Sample20">
+      <Title>Axis Line Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Axis Line Appearance</ShortBlurb>
+      <SampleControl>AxisAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Axis, Line Appearance</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\Axis\StripLines" ID="Sample38">
+      <Title>Strip Line Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Strip Line Appearance</ShortBlurb>
+      <SampleControl>StripLines</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Strip Lines</Keyword>
+        <Keyword>Strip Lines, Appearance</Keyword>
+        <Keyword>Appearance, Strip Lines</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\ChartArea\ChartArea3D" ID="Sample43">
+      <Title>3D Rotation and Elevation</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>3D Rotation and Elevation</ShortBlurb>
+      <SampleControl>ChartArea3D</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>3D</Keyword>
+        <Keyword>Chart area, 3D</Keyword>
+        <Keyword>Right angle axes</Keyword>
+        <Keyword>3D, Right angle axes</Keyword>
+        <Keyword>Wall width</Keyword>
+        <Keyword>3D, Wall width</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\DataSeries\SeriesAppearance" ID="Sample64">
+      <Title>Series Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Series Appearance</ShortBlurb>
+      <SampleControl>SeriesAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Series, Appearance</Keyword>
+        <Keyword>Appearance, Series</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\InteractiveCharting\Cursors\CursorAppearance" ID="Sample73">
+      <Title>Cursor Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Cursor Appearance</ShortBlurb>
+      <SampleControl>CursorAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Selection</Keyword>
+        <Keyword>Cursor, Appearance</Keyword>
+        <Keyword>Appearance, Cursor</Keyword>
+        <Keyword>Appearance, Selection</Keyword>
+        <Keyword>Axis, Cursor</Keyword>
+        <Keyword>Axis, Selection</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\InteractiveCharting\ZoomingScrolling\ScrollBarAppearance" ID="Sample98">
+      <Title>Scrollbar Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Scrollbar Appearance</ShortBlurb>
+      <SampleControl>ScrollBarAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Scrollbar, Appearance</Keyword>
+        <Keyword>Appearance, Scrollbar</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="ChartFeatures\Legend\LegendAppearance" ID="Sample121">
+      <Title>Legend Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Setting Legend Appearance</ShortBlurb>
+      <SampleControl>LegendAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Legend, Appearance</Keyword>
+        <Keyword>Appearance, Legend</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartAppearance" Path="WorkingWithData\EmptyPoints\EmptyPointsAppearance" ID="Sample245">
+      <Title>Empty Point Appearance</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Empty Point Appearance</ShortBlurb>
+      <SampleControl>EmptyPointAppearance</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Empty points, Inserting</Keyword>
+      </Keywords>
+    </SampleConfig>
+  </TOCNode>
+  <TOCNode ID="ChartFeatures" Priority="900" Path="ChartFeatures" Title="Chart Features">
+    <TOCNode ID="DataSeries" ParentNodeID="ChartFeatures" Priority="50" Path="ChartFeatures" Title="Data Series">
+      <SampleConfig ParentNodeID="DataSeries" Priority="1" Path="ChartFeatures\DataSeries\Overview" ID="Sample58">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Series</ShortBlurb>
+        <SampleControl>DataSeries</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\ChartArea\Series and Chart Areas" ID="Sample49">
+        <Title>Series and Chart Areas</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Attaching Series to Chart Area</ShortBlurb>
+        <SampleControl>SeriesAndChartAreas</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Attaching to chart area</Keyword>
+          <Keyword>Chart area, Attaching series</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\AddingSeries" ID="Sample55">
+        <Title>Adding and Removing Series at Run-Time</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Adding and Removing Series</ShortBlurb>
+        <SampleControl>AddingSeries</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Adding</Keyword>
+          <Keyword>Series, Removing</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\HidingSeries" ID="Sample56">
+        <Title>Hiding Series</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Hiding Series</ShortBlurb>
+        <SampleControl>HidingSeries</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Hiding</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\IndexedX" ID="Sample57">
+        <Title>Indexed X Values</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Indexed X Values</ShortBlurb>
+        <SampleControl>IndexedX</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Indexed X values</Keyword>
+          <Keyword>Indexed X values</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\PointWidthAndDepth" ID="Sample59">
+        <Title>Points Width and 3D Depth</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Points Width and 3D Depth</ShortBlurb>
+        <SampleControl>PointWidthAndDepth</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overvew">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Point Width</Keyword>
+          <Keyword>Series, Point Depth</Keyword>
+          <Keyword>3D, Point Width</Keyword>
+          <Keyword>3D, Point Depth</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\SecondaryAxis" ID="Sample61">
+        <Title>Secondary Y Axis</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Plotting Series against Secondary Y Axis</ShortBlurb>
+        <SampleControl>SecondaryAxis</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Using Secondary Axes</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\Series Z Order" ID="Sample62">
+        <Title>Series Z Order</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Series Z Order</ShortBlurb>
+        <SampleControl>SeriesZOrder</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Z order</Keyword>
+          <Keyword>Z order, Series</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\SeriesAppearance" ID="Sample63">
+        <Title>Series Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Series Appearance</ShortBlurb>
+        <SampleControl>SeriesAppearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Appearance</Keyword>
+          <Keyword>Appearance, Series</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\UsingLabels" ID="Sample65">
+        <Title>Using Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Data Labels Appearance</ShortBlurb>
+        <SampleControl>UsingLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Data point labels</Keyword>
+          <Keyword>Series, Data point labels</Keyword>
+          <Keyword>Appearance, Data point labels</Keyword>
+          <Keyword>Data Label, Appearance</Keyword>
+          <Keyword>Point labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\DataSeries\UsingMarkers" ID="Sample66">
+        <Title>Using Markers</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Series Markers Appearance</ShortBlurb>
+        <SampleControl>UsingMarkers</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Markers</Keyword>
+          <Keyword>Appearance, Marker</Keyword>
+          <Keyword>Marker, Appearance</Keyword>
+          <Keyword>Marker</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\InteractiveCharting\ToolTips\CustomToolTips" ID="Sample93">
+        <Title>Custom ToolTips</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Custom ToolTips</ShortBlurb>
+        <SampleControl>CustomToolTips</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Tooltips, Custom</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="ChartFeatures\Labels\Smart Labels" ID="Sample119">
+        <Title>Smart Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Smart Data Labels</ShortBlurb>
+        <SampleControl>SmartLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Smart labels, Style</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="DataSeries" Path="WorkingWithData\EmptyPoints\InsertingEmptyPoints" ID="Sample247">
+        <Title>Inserting Empty Points</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Inserting Empty Points</ShortBlurb>
+        <SampleControl>InsertingEmptyPoints</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Text Style</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="ChartArea" ParentNodeID="ChartFeatures" Priority="100" Path="ChartFeatures" Title="Chart Areas">
+      <SampleConfig ParentNodeID="ChartArea" Priority="1" Path="ChartFeatures\ChartArea\Overview" ID="Sample48">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Chart Areas</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart area, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Priority="25" Path="ChartFeatures\ChartArea\ChartAreaPosition" ID="Sample44">
+        <Title>Chart Area and Plotting Area Positions</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Chart Area and Plotting Area Positions</ShortBlurb>
+        <SampleControl>ChartAreaPosition</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart area</Keyword>
+          <Keyword>Chart area, Position</Keyword>
+          <Keyword>Plotting area</Keyword>
+          <Keyword>Plotting area, Position</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Priority="35" Path="ChartFeatures\ChartArea\Appearance" ID="Sample42">
+        <Title>Plotting Area Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Plotting Area Appearance</ShortBlurb>
+        <SampleControl>Appearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Appearance, Chart area</Keyword>
+          <Keyword>Chart area, Appearance</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\ChartArea\AligningChartAreas" ID="Sample39">
+        <Title>Aligning Charting Areas</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Aligning Chart Areas</ShortBlurb>
+        <SampleControl>AligningChartingAreas</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart area, Alignment</Keyword>
+          <Keyword>Alignment, Chart area</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\ChartArea\AlignmentTypes" ID="Sample40">
+        <Title>Alignment Types</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Chart Area Alignment</ShortBlurb>
+        <SampleControl>AlignmentTypes</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Alignment, Types</Keyword>
+          <Keyword>Chart area, Alignment types</Keyword>
+          <Keyword>Alignment, Area alignment types</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\ChartArea\ChartInDataPoint" ID="Sample45">
+        <Title>Mini-Chart in Data Points</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Displaying Mini-Chart in Data Points</ShortBlurb>
+        <SampleControl>ChartInDataPoint</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Chart in data point</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\ChartArea\InsideDoughnut" ID="Sample46">
+        <Title>Doughnut Chart in Doughnut</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overlaying Chart Areas</ShortBlurb>
+        <SampleControl>ChartInDoughnut</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Doughnut Charts, Stacked</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\ChartArea\Z Order" ID="Sample50">
+        <Title>Z Order</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Chart Areas ZOrder</ShortBlurb>
+        <SampleControl>ZOrder</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Z order</Keyword>
+          <Keyword>Chart area, Z order</Keyword>
+          <Keyword>Series, Z order</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\DataSeries\PointWidthAndDepth" ID="Sample60">
+        <Title>Points Width and 3D Depth</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Points Width and 3D Depth</ShortBlurb>
+        <SampleControl>PointWidthAndDepth</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overvew">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Series, Point Width</Keyword>
+          <Keyword>Series, Point Depth</Keyword>
+          <Keyword>3D, Point Width</Keyword>
+          <Keyword>3D, Point Depth</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\Events\CursorPositionChanged" ID="Sample68">
+        <Title>Cursor Position Changed</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using CursorPositionChanged Event</ShortBlurb>
+        <SampleControl>CursorPositionChanged</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Events, Cursor position</Keyword>
+          <Keyword>Cursor, Position change event</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\InteractiveCharting\Cursors\CursorAppearance" ID="Sample74">
+        <Title>Cursor Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Cursor Appearance</ShortBlurb>
+        <SampleControl>CursorAppearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Selection</Keyword>
+          <Keyword>Cursor, Appearance</Keyword>
+          <Keyword>Appearance, Cursor</Keyword>
+          <Keyword>Appearance, Selection</Keyword>
+          <Keyword>Axis, Cursor</Keyword>
+          <Keyword>Axis, Selection</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\InteractiveCharting\Cursors\CursorAxis" ID="Sample76">
+        <Title>Cursor Axis Attachment</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Cursor Axis Attachment</ShortBlurb>
+        <SampleControl>CursorAxis</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Cursor</Keyword>
+          <Keyword>Axis, Cursor</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\InteractiveCharting\Cursors\CursorInterval" ID="Sample78">
+        <Title>Cursor Intervals</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Cursor Intervals</ShortBlurb>
+        <SampleControl>CursorInterval</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Cursor, Interval</Keyword>
+          <Keyword>Interval, Cursor</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\InteractiveCharting\Cursors\KeyboardZoomScroll" ID="Sample80">
+        <Title>Keyboard Zoom/Scroll Cursors</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Keyboard to Zoom and Scroll</ShortBlurb>
+        <SampleControl>KeyboardZoomScroll</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Scrolling, Using keyboard</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\InteractiveCharting\Cursors\MultiChartAreaCursor" ID="Sample82">
+        <Title>Multi Chart Area Cursor</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Synchronizing Two Chart Areas</ShortBlurb>
+        <SampleControl>MultiChartAreaCursor</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Cursor, Alignment</Keyword>
+          <Keyword>Financial, Cursor</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="ChartArea" Path="ChartFeatures\InteractiveCharting\Cursors\ZoomScrollAuto" ID="Sample85">
+        <Title>Auto Zoom/Scroll Cursors</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Auto Zoom/Scroll Cursors</ShortBlurb>
+        <SampleControl>CursorAutoZoomScroll</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Axis" ParentNodeID="ChartFeatures" Priority="200" Path="ChartFeatures" Title="Axes">
+      <SampleConfig ParentNodeID="Axis" Priority="1" Path="ChartFeatures\Axis\Overview" ID="Sample31">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Axes</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Axis, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="50" Path="ChartFeatures\Axis\Appearance" ID="Sample19">
+        <Title>Axis Line Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis Line Appearance</ShortBlurb>
+        <SampleControl>AxisAppearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Appearance, Axis Line</Keyword>
+          <Keyword>Axis, Line Appearance</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="100" Path="ChartFeatures\Axis\MultipleYAxis" ID="Sample30">
+        <Title>Multiple Y Axes</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Multiple Y Axes</ShortBlurb>
+        <SampleControl>MultipleYAxis</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Multiple axes</Keyword>
+          <Keyword>Axis, Multiple axes</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="200" Path="ChartFeatures\Axis\Axis Title" ID="Sample21">
+        <Title>Axis Title</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting the Axis Title Appearance</ShortBlurb>
+        <SampleControl>AxisTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Axis, Title</Keyword>
+          <Keyword>Title, Axis</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="300" Path="ChartFeatures\Axis\AxisMargins" ID="Sample23">
+        <Title>Axis Margins</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis Margins</ShortBlurb>
+        <SampleControl>AxisMargins</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Margin</Keyword>
+          <Keyword>Axis, Margin</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="400" Path="ChartFeatures\Axis\AxisScale" ID="Sample24">
+        <Title>Axis Scale</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis Value</ShortBlurb>
+        <SampleControl>AxisScale</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Scale</Keyword>
+          <Keyword>Axis, Scale</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="450" Path="ChartFeatures\Axis\Logarithmic Scale" ID="Sample29">
+        <Title>Logarithmic Scale</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Logarithmic Scale</ShortBlurb>
+        <SampleControl>LogarithmicScale</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Logarithmic scale</Keyword>
+          <Keyword>Axis, Logarithmic scale</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="450" Path="ChartFeatures\Axis\ScaleBreaks" ID="Sample33">
+        <Title>Scale Breaks</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Scale Breaks</ShortBlurb>
+        <SampleControl>ScaleBreaks</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Scale Breaks</Keyword>
+          <Keyword>Axis Breaks</Keyword>
+          <Keyword>Breaks, Axis</Keyword>
+          <Keyword>Axis, Scale Breaks</Keyword>
+          <Keyword>Axis, Axis Breaks</Keyword>
+          <Keyword>Axis, Breaks</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="500" Path="ChartFeatures\Axis\Crossing And Reverse" ID="Sample25">
+        <Title>Crossing and Reverse Axis Properties</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Crossing and Reverse Axis Properties</ShortBlurb>
+        <SampleControl>AxisCrossing</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Crossing</Keyword>
+          <Keyword>Axis, Crossing</Keyword>
+          <Keyword>Reversing</Keyword>
+          <Keyword>Axis, Reversing</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="550" Path="ChartFeatures\Axis\GridLinesAndTickMarks" ID="Sample26">
+        <Title>Grid Lines and Tick Marks</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Grid Lines and Tick Marks</ShortBlurb>
+        <SampleControl>GridLinesTicks</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Interval, GridLines and TickMark</Keyword>
+          <Keyword>Appearance, GridLines and TickMark</Keyword>
+          <Keyword>Grid Lines, Appearance</Keyword>
+          <Keyword>Tick mark, Appearance</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="700" Path="ChartFeatures\Axis\PrimaryAndSecondaryAxes" ID="Sample32">
+        <Title>Primary and Secondary Axes</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Primary and Secondary Axes</ShortBlurb>
+        <SampleControl>PrimarySecondaryAxis</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Primary axis</Keyword>
+          <Keyword>Secondary axis</Keyword>
+          <Keyword>Axis, Primary and secondary</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="700" Path="ChartFeatures\Axis\Strip Lines Title" ID="Sample35">
+        <Title>Strip Line Titles</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Strip Line Title Appearance</ShortBlurb>
+        <SampleControl>StripLineTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Strip Lines, Title</Keyword>
+          <Keyword>Title, Strip lines</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="700" Path="ChartFeatures\Axis\StripLines" ID="Sample37">
+        <Title>Strip Line Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Strip Line Appearance</ShortBlurb>
+        <SampleControl>StripLines</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Strip Lines</Keyword>
+          <Keyword>Strip Lines, Appearance</Keyword>
+          <Keyword>Appearance, Strip Lines</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="800" Path="ChartFeatures\Axis\InterlacedStrips" ID="Sample28">
+        <Title>Interlaced Strip Lines</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Interlaced Strip Lines</ShortBlurb>
+        <SampleControl>InterlacedStrips</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Interlaced strip lines</Keyword>
+          <Keyword>Strip Lines, Interlaced</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="800" Path="ChartFeatures\Labels\AxisVarLabelsInterval" ID="Sample105">
+        <Title>Setting Variable Label Intervals</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Variable Label Intervals</ShortBlurb>
+        <SampleControl>AxisVarLabelsInterval</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Interval</Keyword>
+          <Keyword>Interval, Axis labels</Keyword>
+          <Keyword>Axis, Labels interval</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="1000" Path="ChartFeatures\Axis\HighlightDateRanges" ID="Sample27">
+        <Title>Highlighting Dates Using StripLines</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Highlighting Dates Using StripLines</ShortBlurb>
+        <SampleControl>HighlightDateRange</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Strip Lines, DateTime</Keyword>
+          <Keyword>Date Time, Strip Lines</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="1200" Path="ChartFeatures\Axis\Strip Lines Offset" ID="Sample34">
+        <Title>Offset Strip Lines</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Strip Lines Offset</ShortBlurb>
+        <SampleControl>StripIntervals</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Strip Lines, Interval and offset</Keyword>
+          <Keyword>Interval, Strip Lines</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Priority="2000" Path="ChartFeatures\Labels\LabelsNextToAxis" ID="Sample114">
+        <Title>Labels Next To Axis</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Labels Next To Axis</ShortBlurb>
+        <SampleControl>LabelsNextToAxis</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Axis, Markings next to axis</Keyword>
+          <Keyword>Grid Lines, Next to axis</Keyword>
+          <Keyword>Tick mark, Next to axis</Keyword>
+          <Keyword>Labels, Next to axis</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Path="ChartFeatures\Labels\AutoFitAxesLabels" ID="Sample102">
+        <Title>Auto Fit Axes Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Auto-Fitting Axis Labels</ShortBlurb>
+        <SampleControl>AutoFitAxesLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Auto fitting</Keyword>
+          <Keyword>Auto fitting axes labels</Keyword>
+          <Keyword>Axis, Labels auto fitting</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Path="ChartFeatures\Labels\AxisLabelsInterval" ID="Sample104">
+        <Title>Axis Labels Interval</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis Labels Interval</ShortBlurb>
+        <SampleControl>AxisLabelsInterval</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Interval</Keyword>
+          <Keyword>Interval, Axis labels</Keyword>
+          <Keyword>Axis, Labels interval</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Path="ChartFeatures\Labels\CustomLabels" ID="Sample108">
+        <Title>Custom Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Custom Labels</ShortBlurb>
+        <SampleControl>CustomLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Custom</Keyword>
+          <Keyword>Axis, Custom labels</Keyword>
+          <Keyword>Customizations, Axis Labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Axis" Path="ChartFeatures\Labels\EquallySizedAutoFitFont" ID="Sample109">
+        <Title>Equally Sized Axes Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Equally Sized Axes Labels</ShortBlurb>
+        <SampleControl>EquallySizedAutoFont</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Equally sized</Keyword>
+          <Keyword>Axis, Equally sized labels</Keyword>
+          <Keyword>Equally sized labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Legend" ParentNodeID="ChartFeatures" Priority="300" Path="ChartFeatures" Title="Legends">
+      <SampleConfig ParentNodeID="Legend" Priority="1" Path="ChartFeatures\Legend\Overview" ID="Sample134">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Legends</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="50" Path="ChartFeatures\Legend\LegendAppearance" ID="Sample120">
+        <Title>Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Legend Appearance</ShortBlurb>
+        <SampleControl>LegendAppearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Appearance</Keyword>
+          <Keyword>Appearance, Legend</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="100" Path="ChartFeatures\Legend\LegendInteractive" ID="Sample128">
+        <Title>Interactive Legend</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Interactive Legend</ShortBlurb>
+        <SampleControl>LegendInteractive</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Interactive</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="100" Path="ChartFeatures\Legend\LegendStyleAndPosition" ID="Sample129">
+        <Title>Style and Auto Positioning</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Legend Style and Auto Positioning</ShortBlurb>
+        <SampleControl>LegendStylePosition</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Style</Keyword>
+          <Keyword>Legend, Docking</Keyword>
+          <Keyword>Legend, Alignment</Keyword>
+          <Keyword>Legend, Disabling</Keyword>
+          <Keyword>Legend, Equally spaced items</Keyword>
+          <Keyword>Equally spaced legend items</Keyword>
+          <Keyword>Chart area, Legend inside</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="200" Path="ChartFeatures\Legend\LegendCellColumns" ID="Sample122">
+        <Title>Setting Multiple Columns</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Multiple Columns</ShortBlurb>
+        <SampleControl>LegendCellColumns</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Cell Columns</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="200" Path="ChartFeatures\Legend\LegendFont" ID="Sample127">
+        <Title>Legend Font</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Legend Font Appearance</ShortBlurb>
+        <SampleControl>LegendFont</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Font</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="200" Path="ChartFeatures\Legend\LegendTitle" ID="Sample130">
+        <Title>Adding a Legend Title</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Adding a Legend Title</ShortBlurb>
+        <SampleControl>LegendTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Titles</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="300" Path="ChartFeatures\Legend\MultipleLegends" ID="Sample132">
+        <Title>Series Legend Assignment</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Series Legend Assignment</ShortBlurb>
+        <SampleControl>MultipleLegends</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Multiple legends</Keyword>
+          <Keyword>Series, Legend</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="400" Path="ChartFeatures\Legend\LegendCustomPosition" ID="Sample126">
+        <Title>Explicit Positioning</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Legend Explicit Positioning</ShortBlurb>
+        <SampleControl>LegendCustomPosition</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Custom position</Keyword>
+          <Keyword>Position, Legend</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="400" Path="ChartFeatures\Legend\MultipleLegendsWithCheckBox" ID="Sample133">
+        <Title>Multiple Legends</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Multiple Legends</ShortBlurb>
+        <SampleControl>MultipleLegendsWithCheckBox</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Multiple legends</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="800" Path="ChartFeatures\Legend\LegendCustomItems" ID="Sample125">
+        <Title>Custom Legend Items</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Adding Custom Legend Items</ShortBlurb>
+        <SampleControl>LegendCustomItems</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Custom items</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="950" Path="ChartFeatures\Legend\LegendCells" ID="Sample123">
+        <Title>Legend Cells</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Legend Cells</ShortBlurb>
+        <SampleControl>LegendCells</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Cells</Keyword>
+          <Keyword>Legend, Images</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Legend" Priority="950" Path="ChartFeatures\Legend\LegendCellSpan" ID="Sample124">
+        <Title>Legend Cell Span</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Legend Cell Span</ShortBlurb>
+        <SampleControl>LegendCellSpan</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Cell Span</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Labels" ParentNodeID="ChartFeatures" Priority="400" Path="ChartFeatures" Title="Labels">
+      <SampleConfig ParentNodeID="Labels" Priority="1" Path="ChartFeatures\Labels\Overview" ID="Sample117">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Labels</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="100" Path="ChartFeatures\Labels\Smart Labels" ID="Sample118">
+        <Title>Smart Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Smart Labels</ShortBlurb>
+        <SampleControl>SmartLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Smart labels, Style</Keyword>
+          <Keyword>Labels, Smart labels</Keyword>
+          <Keyword>Labels Overlapping</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="200" Path="ChartFeatures\Labels\MultilineLabels" ID="Sample116">
+        <Title>Axis and Data Point Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis and Data Point Labels</ShortBlurb>
+        <SampleControl>MultilineLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Multiline</Keyword>
+          <Keyword>Multiline Labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="300" Path="ChartFeatures\Labels\AxisLabelsInterval" ID="Sample103">
+        <Title>Axis Labels Interval</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis Labels Interval</ShortBlurb>
+        <SampleControl>AxisLabelsInterval</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Interval</Keyword>
+          <Keyword>Interval, Axis labels</Keyword>
+          <Keyword>Axis, Labels interval</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="300" Path="ChartFeatures\Labels\LabelsTextStyle" ID="Sample115">
+        <Title>Labels Text Style</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Labels Text Style</ShortBlurb>
+        <SampleControl>LabelsTextStyle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Appearance</Keyword>
+          <Keyword>Labels, Offset labels</Keyword>
+          <Keyword>Appearance, Axis labels</Keyword>
+          <Keyword>Offset labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="400" Path="ChartFeatures\Labels\LabelsFormatting" ID="Sample111">
+        <Title>Formatting Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Formatting Labels</ShortBlurb>
+        <SampleControl>LabelsFormatting</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Data Label, Formatting</Keyword>
+          <Keyword>Labels, Formatting</Keyword>
+          <Keyword>Axis, Labels formatting</Keyword>
+          <Keyword>Formatting, Labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="500" Path="ChartFeatures\Labels\LabelsKeywords" ID="Sample112">
+        <Title>Using Keywords in Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Keywords in Labels</ShortBlurb>
+        <SampleControl>LabelsKeywords</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Keywords</Keyword>
+          <Keyword>Data Label, Keywords</Keyword>
+          <Keyword>Labels, Keywords</Keyword>
+          <Keyword>Formatting, Labels Keywords</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="800" Path="ChartFeatures\Labels\AxisVarLabelsInterval" ID="Sample106">
+        <Title>Setting Variable Label Intervals</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Variable Label Intervals</ShortBlurb>
+        <SampleControl>AxisVarLabelsInterval</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Interval</Keyword>
+          <Keyword>Interval, Axis labels</Keyword>
+          <Keyword>Axis, Labels interval</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Priority="2000" Path="ChartFeatures\Labels\LabelsNextToAxis" ID="Sample113">
+        <Title>Labels Next To Axis</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Labels Next To Axis</ShortBlurb>
+        <SampleControl>LabelsNextToAxis</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Axis, Markings next to axis</Keyword>
+          <Keyword>Grid line, Next to axis</Keyword>
+          <Keyword>Tick mark, Next to axis</Keyword>
+          <Keyword>Labels, Next to axis</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Path="ChartFeatures\Labels\AutoFitAxesLabels" ID="Sample101">
+        <Title>Auto Fit Axes Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Auto-Fitting Axis Labels</ShortBlurb>
+        <SampleControl>AutoFitAxesLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Auto fitting</Keyword>
+          <Keyword>Auto fitting axes labels</Keyword>
+          <Keyword>Axis, Labels auto fitting</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Path="ChartFeatures\Labels\CustomLabels" ID="Sample107">
+        <Title>Custom Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Custom Labels</ShortBlurb>
+        <SampleControl>CustomLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Labels" Path="ChartFeatures\Labels\EquallySizedAutoFitFont" ID="Sample110">
+        <Title>Equally Sized Axes Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Equally Sized Axes Labels</ShortBlurb>
+        <SampleControl>EquallySizedAutoFont</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Labels, Equally sized</Keyword>
+          <Keyword>Axis, Equally sized labels</Keyword>
+          <Keyword>Equally sized labels</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Titles" ParentNodeID="ChartFeatures" Priority="500" Path="ChartFeatures" Title="Titles">
+      <SampleConfig ParentNodeID="Titles" Priority="1" Path="ChartFeatures\Titles\Overview" ID="Sample149">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Titles</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Title, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Titles" Priority="100" Path="ChartFeatures\Titles\ChartTitle" ID="Sample147">
+        <Title>Chart Title</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Chart Title Appearance</ShortBlurb>
+        <SampleControl>ChartTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Title, Chart</Keyword>
+          <Keyword>Appearance, Chart title</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Titles" Priority="200" Path="ChartFeatures\Legend\LegendTitle" ID="Sample131">
+        <Title>Legend Title</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Legend Title</ShortBlurb>
+        <SampleControl>LegendTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Legend, Titles</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Titles" Path="ChartFeatures\Axis\Axis Title" ID="Sample22">
+        <Title>Axis Title</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Axis Title Appearance</ShortBlurb>
+        <SampleControl>AxisTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Axis, Title</Keyword>
+          <Keyword>Title, Axis</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Titles" Path="ChartFeatures\Axis\Strip Lines Title" ID="Sample36">
+        <Title>Strip Line Titles</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Setting Strip Line Title Appearance</ShortBlurb>
+        <SampleControl>StripLineTitle</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Strip Lines, Title</Keyword>
+          <Keyword>Title, Strip lines</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Titles" Path="ChartFeatures\Titles\MultipleTitles" ID="Sample148">
+        <Title>Multiple Titles</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Multiple Titles and Alignment</ShortBlurb>
+        <SampleControl>MultipleTitles</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Title, Multiple titles</Keyword>
+          <Keyword>Multiple titles</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Titles" Path="ChartFeatures\Titles\TitlePosition" ID="Sample150">
+        <Title>Explicit Positioning</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Chart Title Explicit Positioning</ShortBlurb>
+        <SampleControl>TitleCustomPosition</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Title, Position</Keyword>
+          <Keyword>Position, Title</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Annotations" ParentNodeID="ChartFeatures" Priority="600" Path="ChartFeatures" Title="Annotations">
+      <SampleConfig ParentNodeID="Annotations" Priority="1" Path="ChartFeatures\Annotations\Overview" ID="Sample16">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Annotations</ShortBlurb>
+        <SampleControl>OverviewAnnotations</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations</Keyword>
+          <Keyword>Overview, Annotations</Keyword>
+          <Keyword>Annotations, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="100" Path="ChartFeatures\Annotations\AnnotationAppearance" ID="Sample7">
+        <Title>Annotation Appearance</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Annotation Appearance</ShortBlurb>
+        <SampleControl>AnnotationAppearance</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Appearance</Keyword>
+          <Keyword>Annotations, Setting Text</Keyword>
+          <Keyword>Annotations, Lines</Keyword>
+          <Keyword>Annotations, Fonts</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="200" Path="ChartFeatures\Annotations\AnnotationStyles" ID="Sample12">
+        <Title>Annotation Types</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Annotation Types</ShortBlurb>
+        <SampleControl>AnnotationStyles</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Styles</Keyword>
+          <Keyword>Annotations, Arrows</Keyword>
+          <Keyword>Annotations, Types</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="300" Path="ChartFeatures\Annotations\AnnotationSmartLabels" ID="Sample11">
+        <Title>Annotation Smart Labels</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Annotation Smart Labels</ShortBlurb>
+        <SampleControl>AnnotationSmartLabels</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Using Labels</Keyword>
+          <Keyword>Annotations, Smart Labels</Keyword>
+          <Keyword>Smart Labels, Annotations</Keyword>
+          <Keyword>Annotations, Avoiding Overlapping</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="400" Path="ChartFeatures\Annotations\AnnotationAnchoring" ID="Sample6">
+        <Title>Annotation Anchoring</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Annotation Anchoring</ShortBlurb>
+        <SampleControl>AnnotationAnchoring</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Anchoring</Keyword>
+          <Keyword>Annotations, Attaching</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="500" Path="ChartFeatures\Annotations\FreeDrawAnnotation" ID="Sample13">
+        <Title>Free-drawing Annotations</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Free-drawing Annotations</ShortBlurb>
+        <SampleControl>FreeDrawAnnotation</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Free-Drawing</Keyword>
+          <Keyword>Annotations, Drawing with Mouse</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="600" Path="ChartFeatures\Annotations\AnnotationEditing" ID="Sample8">
+        <Title>Editing Annotation Text</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Editing Annotation Text</ShortBlurb>
+        <SampleControl>AnnotationEditing</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Editing Text</Keyword>
+          <Keyword>Annotations, Multiline</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Priority="700" Path="ChartFeatures\Annotations\GroupingAnnotations" ID="Sample15">
+        <Title>Grouping Annotations</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Grouping Annotations</ShortBlurb>
+        <SampleControl>GroupingAnnotations</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Grouping</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Path="ChartFeatures\Annotations\AnnotationPositionChanging" ID="Sample9">
+        <Title>AnnotationPositionChanging Event</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>AnnotationPositionChanging Event</ShortBlurb>
+        <SampleControl>AnnotationPositionChanging</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, Events</Keyword>
+          <Keyword>Annotations, AnchorPositionChanging event</Keyword>
+          <Keyword>Annotations, AnchorPositionChanged event</Keyword>
+          <Keyword>Annotations, Moving Anchor Point</Keyword>
+          <Keyword>Annotations, Snapping Points</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Annotations" Path="ChartFeatures\Annotations\PositionChangedEvent" ID="Sample17">
+        <Title>AnnotationPositionChanged Event</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>AnnotationPositionChanged Event</ShortBlurb>
+        <SampleControl>PositionChangedEvent</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Annotations, PositionChanged Event</Keyword>
+          <Keyword>Position Changed Event</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Customizations" ParentNodeID="ChartFeatures" Priority="1100" Path="ChartFeatures" Title="Customization and Events">
+      <SampleConfig ParentNodeID="Customizations" Priority="1" Path="ChartFeatures\Customizations\Overview" ID="Sample52">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Customization</ShortBlurb>
+        <SampleControl>Overview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Customizations, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="100" Path="ChartFeatures\Customizations\PreAndPostPaintEvent" ID="Sample54">
+        <Title>PrePaint and PostPaint Events</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>PrePaint and PostPaint Events</ShortBlurb>
+        <SampleControl>PrePostPaint</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Customizations, Painting Events</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="200" Path="ChartFeatures\Customizations\CustomImage" ID="Sample51">
+        <Title>Custom Painting an Image</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Custom Painting an Image</ShortBlurb>
+        <SampleControl>CustomDrawnTitles</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Image, Custom drawn</Keyword>
+          <Keyword>Customizations, Adding Images to the Chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="300" Path="ChartFeatures\Customizations\PaintingDataTable" ID="Sample53">
+        <Title>Custom Painting a DataTable</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Custom Painting a DataTable</ShortBlurb>
+        <SampleControl>PaintingDataTable</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Customizations, Data Tables</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="400" Path="ChartFeatures\Events\ScrollBarEvents" ID="Sample69">
+        <Title>Customizing the Scrollbar</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Scrollbar Events</ShortBlurb>
+        <SampleControl>ScrollBarEvents</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Events, Scrollbar</Keyword>
+          <Keyword>Scrollbar, Events</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="500" Path="ChartFeatures\InteractiveCharting\ToolTips\CustomToolTips" ID="Sample91">
+        <Title>Custom ToolTips</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using Custom ToolTips</ShortBlurb>
+        <SampleControl>CustomToolTips</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Tooltips, Custom</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="700" Path="ChartFeatures\Annotations\PositionChangedEvent" ID="Sample18">
+        <Title>AnnotationPositionChanged Event</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>AnnotationPositionChanged Event</ShortBlurb>
+        <SampleControl>PositionChangedEvent</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="800" Path="ChartFeatures\Annotations\AnnotationPositionChanging" ID="Sample10">
+        <Title>AnnotationPositionChanging Event</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>AnnotationPositionChanging Event</ShortBlurb>
+        <SampleControl>AnnotationPositionChanging</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="900" Path="ChartFeatures\Events\ViewChangedEvent" ID="Sample71">
+        <Title>AxisViewChanged Event</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Axis View Changed Event</ShortBlurb>
+        <SampleControl>ViewChangedEvent</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Events, Data view changed</Keyword>
+          <Keyword>Data view, Events</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Customizations" Priority="1000" Path="ChartFeatures\Events\CursorPositionChanged" ID="Sample67">
+        <Title>CursorPositionChanged Event</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Using CursorPositionChanged Event</ShortBlurb>
+        <SampleControl>CursorPositionChanged</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Events, Cursor position</Keyword>
+          <Keyword>Cursor, Position change event</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="InteractiveCharting" ParentNodeID="ChartFeatures" Priority="1100" Path="ChartFeatures" Title="Interactive Charting">
+      <SampleConfig ParentNodeID="InteractiveCharting" Priority="1" Path="ChartFeatures\InteractiveCharting\Overview" ID="Sample86">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Interactivity</ShortBlurb>
+        <SampleControl>Interactivity</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Interactivity, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <TOCNode ID="Selection" ParentNodeID="InteractiveCharting" Priority="200" Path="InteractiveCharting" Title="Selection">
+        <SampleConfig ParentNodeID="Selection" Path="ChartFeatures\InteractiveCharting\Selection\DrillDown" ID="Sample87">
+          <Title>Drill Down</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Chart Drill Down</ShortBlurb>
+          <SampleControl>DrillDown</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Drill down</Keyword>
+            <Keyword>Events, Drill down</Keyword>
+            <Keyword>Interactive chart, Drill down</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Selection" Path="ChartFeatures\InteractiveCharting\Selection\InteractivePie" ID="Sample88">
+          <Title>Interactive Pie Chart</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Interactive Pie Chart</ShortBlurb>
+          <SampleControl>InteractivePie</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Events, Pie slice exploding</Keyword>
+            <Keyword>Interactive chart, Pie slice exploding</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Selection" Path="ChartFeatures\InteractiveCharting\Selection\PointsDragging" ID="Sample89">
+          <Title>Changing Values by Dragging</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Changing Point Values by Dragging with Mouse</ShortBlurb>
+          <SampleControl>PointsDragging</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Events, Data points dragging</Keyword>
+            <Keyword>Dragging data points</Keyword>
+            <Keyword>Interactive chart, Data points dragging</Keyword>
+            <Keyword>Data, Data points dragging</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Selection" Path="ChartFeatures\InteractiveCharting\Selection\Selection" ID="Sample90">
+          <Title>Selection of Data Points</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Chart Data Points Selection</ShortBlurb>
+          <SampleControl>Selection</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Events, Selection</Keyword>
+            <Keyword>Selection</Keyword>
+            <Keyword>Interactive chart, Selection</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="Cursors" ParentNodeID="InteractiveCharting" Priority="300" Path="InteractiveCharting" Title="Cursors">
+        <SampleConfig ParentNodeID="Cursors" Path="ChartFeatures\InteractiveCharting\Cursors\CursorAppearance" ID="Sample72">
+          <Title>Cursor Appearance</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Setting Cursor Appearance</ShortBlurb>
+          <SampleControl>CursorAppearance</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Selection</Keyword>
+            <Keyword>Cursor, Appearance</Keyword>
+            <Keyword>Appearance, Cursor</Keyword>
+            <Keyword>Appearance, Selection</Keyword>
+            <Keyword>Axis, Cursor</Keyword>
+            <Keyword>Axis, Selection</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Cursors" Path="ChartFeatures\InteractiveCharting\Cursors\CursorAxis" ID="Sample75">
+          <Title>Cursor Axis Attachment</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Cursor Axis Attachment</ShortBlurb>
+          <SampleControl>CursorAxis</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Cursor</Keyword>
+            <Keyword>Axis, Cursor</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Cursors" Path="ChartFeatures\InteractiveCharting\Cursors\CursorInterval" ID="Sample77">
+          <Title>Cursor Intervals</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Setting Cursor Intervals</ShortBlurb>
+          <SampleControl>CursorInterval</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Cursor, Interval</Keyword>
+            <Keyword>Interval, Cursor</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Cursors" Path="ChartFeatures\InteractiveCharting\Cursors\KeyboardZoomScroll" ID="Sample79">
+          <Title>Keyboard Zoom/Scroll Cursors</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Keyboard to Zoom and Scroll</ShortBlurb>
+          <SampleControl>KeyboardZoomScroll</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Scrolling, Using keyboard</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Cursors" Path="ChartFeatures\InteractiveCharting\Cursors\MultiChartAreaCursor" ID="Sample81">
+          <Title>Multi Chart Area Cursor</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Synchronizing Two Chart Areas</ShortBlurb>
+          <SampleControl>MultiChartAreaCursor</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Cursor, Alignment</Keyword>
+            <Keyword>Financial, Cursor</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Cursors" Path="ChartFeatures\InteractiveCharting\Cursors\ZoomScrollAuto" ID="Sample84">
+          <Title>Auto Zoom/Scroll Cursors</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Auto Zoom/Scroll Cursors</ShortBlurb>
+          <SampleControl>CursorAutoZoomScroll</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Scrolling</Keyword>
+            <Keyword>Zooming, Automatically Scroll Cursors</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="Zooming and Scrolling" ParentNodeID="InteractiveCharting" Priority="400" Path="InteractiveCharting" Title="Zooming and Scrolling">
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Priority="100" Path="ChartFeatures\InteractiveCharting\ZoomingScrolling\BasicZooming" ID="Sample95">
+          <Title>Basic Zooming</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Basic zooming</ShortBlurb>
+          <SampleControl>BasicZooming</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Zooming</Keyword>
+            <Keyword>Data view, Zooming</Keyword>
+            <Keyword>Axis, Zooming</Keyword>
+            <Keyword>Scrollbar, Outside chart area</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Priority="200" Path="ChartFeatures\InteractiveCharting\ZoomingScrolling\ScrollBarAppearance" ID="Sample97">
+          <Title>Scrollbar Appearance</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Scrollbar Appearance</ShortBlurb>
+          <SampleControl>ScrollBarAppearance</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Scrollbar, Appearance</Keyword>
+            <Keyword>Appearance, Scrollbar</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Priority="300" Path="ChartFeatures\InteractiveCharting\ZoomingScrolling\KeyboardScrolling" ID="Sample96">
+          <Title>Scrolling Axis with the Keyboard</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Scrolling Axis with Keyboard</ShortBlurb>
+          <SampleControl>KeyboardScrolling</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Zooming, Using keyboard</Keyword>
+            <Keyword>Scrollbar, Using keyboard</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Priority="400" Path="ChartFeatures\InteractiveCharting\ZoomingScrolling\SmallScrollSize" ID="Sample99">
+          <Title>Small Scrolling Size</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Axis Small Scrolling Size</ShortBlurb>
+          <SampleControl>SmallScrollSize</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Scrollbar, Scrolling distance</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Priority="500" Path="ChartFeatures\InteractiveCharting\ZoomingScrolling\ZoomingExtents" ID="Sample100">
+          <Title>Limiting View Size</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Limiting Axis View Size</ShortBlurb>
+          <SampleControl>ZoomingExtents</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Zooming, Min size</Keyword>
+            <Keyword>Data view, Min size</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Path="ChartFeatures\Events\ScrollBarEvents" ID="Sample70">
+          <Title>AxisScrollBarClicked Event</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Scrollbar Events</ShortBlurb>
+          <SampleControl>ScrollBarEvents</SampleControl>
+          <InfoPages>
+            <InfoPage Title="Overview">overview.htm</InfoPage>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Events, Scrollbar</Keyword>
+            <Keyword>Scrollbar, Events</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="Zooming and Scrolling" Path="ChartFeatures\InteractiveCharting\Cursors\MultiChartAreaCursor" ID="Sample83">
+          <Title>Multi Chart Area Cursor</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Synchronizing Two Chart Areas</ShortBlurb>
+          <SampleControl>MultiChartAreaCursor</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Cursor, Alignment</Keyword>
+            <Keyword>Financial, Cursor</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+      <TOCNode ID="ToolTips" ParentNodeID="InteractiveCharting" Priority="500" Path="InteractiveCharting" Title="Tooltips">
+        <SampleConfig ParentNodeID="ToolTips" Priority="100" Path="ChartFeatures\InteractiveCharting\ToolTips\UsingToolTips" ID="Sample94">
+          <Title>Standard ToolTips</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using ToolTips</ShortBlurb>
+          <SampleControl>UsingToolTips</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Tooltips</Keyword>
+            <Keyword>Tooltips, Keywords</Keyword>
+            <Keyword>Tooltips, Point Label</Keyword>
+            <Keyword>Series, Tooltips</Keyword>
+          </Keywords>
+        </SampleConfig>
+        <SampleConfig ParentNodeID="ToolTips" Priority="200" Path="ChartFeatures\InteractiveCharting\ToolTips\CustomToolTips" ID="Sample92">
+          <Title>Custom ToolTips</Title>
+          <Thumbnail>thumbnail.jpg</Thumbnail>
+          <ShortBlurb>Using Custom ToolTips</ShortBlurb>
+          <SampleControl>CustomToolTips</SampleControl>
+          <InfoPages>
+            <InfoPage Title="C# Source">cscode.txt</InfoPage>
+            <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+          </InfoPages>
+          <Keywords>
+            <Keyword>Tooltips, Custom</Keyword>
+          </Keywords>
+        </SampleConfig>
+      </TOCNode>
+    </TOCNode>
+    <TOCNode ID="Printing" ParentNodeID="ChartFeatures" Priority="1100" Path="ChartFeatures" Title="Printing">
+      <SampleConfig ParentNodeID="Printing" Priority="1" Path="ChartFeatures\Printing\Overview" ID="Sample138">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Printing</ShortBlurb>
+        <SampleControl>Printing</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Printing, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Printing" Priority="100" Path="ChartFeatures\Printing\PrintingAndPreviewing" ID="Sample141">
+        <Title>Printing and Previewing</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Printing and Previewing</ShortBlurb>
+        <SampleControl>PrintPreview</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Printing</Keyword>
+          <Keyword>Printing, Print preview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Printing" Priority="200" Path="ChartFeatures\Printing\PrintingSettings" ID="Sample142">
+        <Title>Programmatic Print Settings</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Programmatic Print Settings</ShortBlurb>
+        <SampleControl>PrintingSettings</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Printing, Settings</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Printing" Priority="300" Path="ChartFeatures\Printing\PrinterFriendlyCharts" ID="Sample139">
+        <Title>Printer Friendly Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Applying Printer Friendly Colors to the Chart</ShortBlurb>
+        <SampleControl>PrinterFriendlyCharts</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Printer friendly chart</Keyword>
+          <Keyword>Printing, Printer friendly chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Printing" Priority="400" Path="ChartFeatures\Printing\MultipagePrinting" ID="Sample137">
+        <Title>Multipage Printing</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Printing on Multiple Pages</ShortBlurb>
+        <SampleControl>MultipagePrinting</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Multipage printing</Keyword>
+          <Keyword>Printing, Multipage</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Printing" Priority="500" Path="ChartFeatures\Printing\CustomPrinting" ID="Sample136">
+        <Title>Custom Printing</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Custom Chart Printing</ShortBlurb>
+        <SampleControl>CustomPrinting</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Customizations, Printing</Keyword>
+          <Keyword>Printing, Custom</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <TOCNode ID="Serialization" ParentNodeID="ChartFeatures" Priority="1100" Path="ChartFeatures" Title="Serialization">
+      <SampleConfig ParentNodeID="Serialization" Priority="100" Path="ChartFeatures\Serialization\Overview" ID="Sample145">
+        <Title>Overview</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Overview of Serialization</ShortBlurb>
+        <SampleControl>Serialization</SampleControl>
+        <InfoPages>
+          <InfoPage Title="Overview">Overview.htm</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Serialization, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Serialization" Priority="200" Path="ChartFeatures\Serialization\BasicSerialization" ID="Sample144">
+        <Title>Basic Serialization</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Chart Serialization</ShortBlurb>
+        <SampleControl>BasicSerialization</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Serialization</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Serialization" Priority="300" Path="ChartFeatures\Serialization\Templates" ID="Sample146">
+        <Title>Using Templates</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Templates</ShortBlurb>
+        <SampleControl>Templates</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Serialization, Overview</Keyword>
+        </Keywords>
+      </SampleConfig>
+      <SampleConfig ParentNodeID="Serialization" Path="ChartFeatures\Printing\PrinterFriendlyCharts" ID="Sample140">
+        <Title>Printer Friendly Charts</Title>
+        <Thumbnail>thumbnail.jpg</Thumbnail>
+        <ShortBlurb>Applying Printer Friendly Colors to the Chart</ShortBlurb>
+        <SampleControl>PrinterFriendlyCharts</SampleControl>
+        <InfoPages>
+          <InfoPage Title="C# Source">cscode.txt</InfoPage>
+          <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+        </InfoPages>
+        <Keywords>
+          <Keyword>Printer friendly chart</Keyword>
+          <Keyword>Printing, Printer friendly chart</Keyword>
+        </Keywords>
+      </SampleConfig>
+    </TOCNode>
+    <SampleConfig ParentNodeID="ChartFeatures" Path="ChartFeatures\Palettes" ID="Sample135">
+      <Title>Palettes</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Palettes</ShortBlurb>
+      <SampleControl>Palettes</SampleControl>
+      <InfoPages>
+        <InfoPage Title="Overview">overview.htm</InfoPage>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Palettes</Keyword>
+        <Keyword>Custom Palettes</Keyword>
+      </Keywords>
+    </SampleConfig>
+    <SampleConfig ParentNodeID="ChartFeatures" Path="ChartFeatures\SavingAndCopyingImages" ID="Sample143">
+      <Title>Saving And Copying Images</Title>
+      <Thumbnail>thumbnail.jpg</Thumbnail>
+      <ShortBlurb>Saving And Copying Chart Images</ShortBlurb>
+      <SampleControl>SavingAndCopyingImages</SampleControl>
+      <InfoPages>
+        <InfoPage Title="C# Source">cscode.txt</InfoPage>
+        <InfoPage Title="Visual Basic Source">vbcode.txt</InfoPage>
+      </InfoPages>
+      <Keywords>
+        <Keyword>Clipboard</Keyword>
+        <Keyword>Saving chart as image</Keyword>
+      </Keywords>
+    </SampleConfig>
+  </TOCNode>
+</SampleContentList>
